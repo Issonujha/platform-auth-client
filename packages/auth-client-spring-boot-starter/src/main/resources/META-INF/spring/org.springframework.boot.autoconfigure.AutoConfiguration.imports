@@ -1,0 +1,2 @@
+com.dukaandaar.auth.client.AuthClientAutoConfiguration
+com.dukaandaar.auth.client.AuthClientSecurityAutoConfiguration

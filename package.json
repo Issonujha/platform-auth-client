@@ -1,0 +1,19 @@
+{
+  "name": "platform-auth-client",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dukaandaar platform auth-client: JVM filter + TS verifier for project-scoped platform tokens",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm -r build && pnpm -r publish --access public --no-git-checks"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "typescript": "^5.5.4"
+  }
+}
